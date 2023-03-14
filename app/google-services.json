@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "583552633729",
+    "project_id": "attendance-manager2-bea29",
+    "storage_bucket": "attendance-manager2-bea29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583552633729:android:67ce6f73f020e15f153680",
+        "android_client_info": {
+          "package_name": "com.minor.attendancemanager2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583552633729-smgbph144jkth6t0v1dcsqunktkddfnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVU8zUqm_JbN4xl4bJUrd9KMp9Wljf3gM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583552633729-smgbph144jkth6t0v1dcsqunktkddfnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

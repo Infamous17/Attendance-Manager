@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".AddActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="60dp"
+        app:boxStrokeColor="@color/blue"
+        android:textColorHint="@color/purple_700"
+        app:hintTextColor="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etSubjectName"
+            android:hint=" Subject"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:inputType="textAutoComplete"
+            android:drawableLeft="@drawable/ic_baseline_library_books_24"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="20dp"
+        app:boxStrokeColor="@color/blue"
+        android:textColorHint="@color/purple_700"
+        app:hintTextColor="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etLecture"
+            android:hint=" Lectures"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:inputType="number"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Subject"
+            android:layout_marginTop="20dp"
+            android:id="@+id/etAdd"/>
+
+</LinearLayout>
